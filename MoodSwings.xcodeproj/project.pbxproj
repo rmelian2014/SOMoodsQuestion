@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81107D981F2416160035AA4A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81107D971F2416160035AA4A /* LoginViewController.swift */; };
+		811BD8591EE37CC900774BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD8581EE37CC900774BEA /* AppDelegate.swift */; };
+		811BD85B1EE37CC900774BEA /* MoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD85A1EE37CC900774BEA /* MoodsViewController.swift */; };
+		811BD8601EE37CC900774BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811BD85F1EE37CC900774BEA /* Assets.xcassets */; };
+		811BD8631EE37CC900774BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811BD8611EE37CC900774BEA /* LaunchScreen.storyboard */; };
+		811BD86E1EE37CC900774BEA /* MoodSwingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD86D1EE37CC900774BEA /* MoodSwingsTests.swift */; };
+		811BD8791EE37CC900774BEA /* MoodSwingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD8781EE37CC900774BEA /* MoodSwingsUITests.swift */; };
+		811BD8891EE38AFC00774BEA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811BD8881EE38AFC00774BEA /* ResultsViewController.swift */; };
+		81F649E71EE3B231002BA6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F649E61EE3B231002BA6AB /* Main.storyboard */; };
+		81F64A241EE48D4C002BA6AB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F64A231EE48D4C002BA6AB /* CoreLocation.framework */; };
+		A07017373733BAFEEE6F38BF /* Pods_MoodSwings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED65990520011E6828862075 /* Pods_MoodSwings.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		811BD86A1EE37CC900774BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811BD84D1EE37CC900774BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811BD8541EE37CC900774BEA;
+			remoteInfo = MoodSwings;
+		};
+		811BD8751EE37CC900774BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 811BD84D1EE37CC900774BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 811BD8541EE37CC900774BEA;
+			remoteInfo = MoodSwings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59E9AAA0896EBC775E39F10F /* Pods-MoodSwings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwings/Pods-MoodSwings.debug.xcconfig"; sourceTree = "<group>"; };
+		81107D971F2416160035AA4A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		811BD8551EE37CC900774BEA /* MoodSwings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodSwings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		811BD8581EE37CC900774BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		811BD85A1EE37CC900774BEA /* MoodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodsViewController.swift; sourceTree = "<group>"; };
+		811BD85F1EE37CC900774BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		811BD8621EE37CC900774BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		811BD8641EE37CC900774BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811BD8691EE37CC900774BEA /* MoodSwingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodSwingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811BD86D1EE37CC900774BEA /* MoodSwingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSwingsTests.swift; sourceTree = "<group>"; };
+		811BD86F1EE37CC900774BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811BD8741EE37CC900774BEA /* MoodSwingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoodSwingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		811BD8781EE37CC900774BEA /* MoodSwingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodSwingsUITests.swift; sourceTree = "<group>"; };
+		811BD87A1EE37CC900774BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811BD8881EE38AFC00774BEA /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		81F649E61EE3B231002BA6AB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		81F64A231EE48D4C002BA6AB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8C2F50F8A24A5A90AF79865F /* Pods-MoodSwingsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwingsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwingsUITests/Pods-MoodSwingsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		958D713AF671F673F46452F8 /* Pods-MoodSwings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwings.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwings/Pods-MoodSwings.release.xcconfig"; sourceTree = "<group>"; };
+		ADFA556AE52996A393D75275 /* Pods-MoodSwingsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwingsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwingsTests/Pods-MoodSwingsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D46E413142BDA56BF9895115 /* Pods-MoodSwingsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwingsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwingsUITests/Pods-MoodSwingsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED65990520011E6828862075 /* Pods_MoodSwings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodSwings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F615CFB6EAE7B44A5EBF0AA9 /* Pods-MoodSwingsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodSwingsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoodSwingsTests/Pods-MoodSwingsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		811BD8521EE37CC900774BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F64A241EE48D4C002BA6AB /* CoreLocation.framework in Frameworks */,
+				A07017373733BAFEEE6F38BF /* Pods_MoodSwings.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8661EE37CC900774BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8711EE37CC900774BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		811BD84C1EE37CC900774BEA = {
+			isa = PBXGroup;
+			children = (
+				811BD8571EE37CC900774BEA /* MoodSwings */,
+				811BD86C1EE37CC900774BEA /* MoodSwingsTests */,
+				811BD8771EE37CC900774BEA /* MoodSwingsUITests */,
+				811BD8561EE37CC900774BEA /* Products */,
+				81F64A221EE48D4C002BA6AB /* Frameworks */,
+				B56D0E5FE5628B9F95D988A8 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		811BD8561EE37CC900774BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				811BD8551EE37CC900774BEA /* MoodSwings.app */,
+				811BD8691EE37CC900774BEA /* MoodSwingsTests.xctest */,
+				811BD8741EE37CC900774BEA /* MoodSwingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		811BD8571EE37CC900774BEA /* MoodSwings */ = {
+			isa = PBXGroup;
+			children = (
+				811BD8581EE37CC900774BEA /* AppDelegate.swift */,
+				811BD85A1EE37CC900774BEA /* MoodsViewController.swift */,
+				811BD8881EE38AFC00774BEA /* ResultsViewController.swift */,
+				811BD85F1EE37CC900774BEA /* Assets.xcassets */,
+				811BD8611EE37CC900774BEA /* LaunchScreen.storyboard */,
+				811BD8641EE37CC900774BEA /* Info.plist */,
+				81F649E61EE3B231002BA6AB /* Main.storyboard */,
+				81107D971F2416160035AA4A /* LoginViewController.swift */,
+			);
+			path = MoodSwings;
+			sourceTree = "<group>";
+		};
+		811BD86C1EE37CC900774BEA /* MoodSwingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				811BD86D1EE37CC900774BEA /* MoodSwingsTests.swift */,
+				811BD86F1EE37CC900774BEA /* Info.plist */,
+			);
+			path = MoodSwingsTests;
+			sourceTree = "<group>";
+		};
+		811BD8771EE37CC900774BEA /* MoodSwingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				811BD8781EE37CC900774BEA /* MoodSwingsUITests.swift */,
+				811BD87A1EE37CC900774BEA /* Info.plist */,
+			);
+			path = MoodSwingsUITests;
+			sourceTree = "<group>";
+		};
+		81F64A221EE48D4C002BA6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81F64A231EE48D4C002BA6AB /* CoreLocation.framework */,
+				ED65990520011E6828862075 /* Pods_MoodSwings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B56D0E5FE5628B9F95D988A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59E9AAA0896EBC775E39F10F /* Pods-MoodSwings.debug.xcconfig */,
+				958D713AF671F673F46452F8 /* Pods-MoodSwings.release.xcconfig */,
+				F615CFB6EAE7B44A5EBF0AA9 /* Pods-MoodSwingsTests.debug.xcconfig */,
+				ADFA556AE52996A393D75275 /* Pods-MoodSwingsTests.release.xcconfig */,
+				8C2F50F8A24A5A90AF79865F /* Pods-MoodSwingsUITests.debug.xcconfig */,
+				D46E413142BDA56BF9895115 /* Pods-MoodSwingsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		811BD8541EE37CC900774BEA /* MoodSwings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811BD87D1EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwings" */;
+			buildPhases = (
+				4C20E40B0A5C1CEF5B1B54C5 /* [CP] Check Pods Manifest.lock */,
+				811BD8511EE37CC900774BEA /* Sources */,
+				811BD8521EE37CC900774BEA /* Frameworks */,
+				811BD8531EE37CC900774BEA /* Resources */,
+				8A34F6EC702ADB667E9714D3 /* [CP] Embed Pods Frameworks */,
+				0892581775C19DEB0850EB22 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoodSwings;
+			productName = MoodSwings;
+			productReference = 811BD8551EE37CC900774BEA /* MoodSwings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		811BD8681EE37CC900774BEA /* MoodSwingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811BD8801EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwingsTests" */;
+			buildPhases = (
+				9D8E1C3A6A3227497B5D33F9 /* [CP] Check Pods Manifest.lock */,
+				811BD8651EE37CC900774BEA /* Sources */,
+				811BD8661EE37CC900774BEA /* Frameworks */,
+				811BD8671EE37CC900774BEA /* Resources */,
+				1A2065E8EFE0881CC30B19E1 /* [CP] Embed Pods Frameworks */,
+				463D0DA0A58AE941986E3184 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811BD86B1EE37CC900774BEA /* PBXTargetDependency */,
+			);
+			name = MoodSwingsTests;
+			productName = MoodSwingsTests;
+			productReference = 811BD8691EE37CC900774BEA /* MoodSwingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		811BD8731EE37CC900774BEA /* MoodSwingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 811BD8831EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwingsUITests" */;
+			buildPhases = (
+				001A39CF29631791E3174A9D /* [CP] Check Pods Manifest.lock */,
+				811BD8701EE37CC900774BEA /* Sources */,
+				811BD8711EE37CC900774BEA /* Frameworks */,
+				811BD8721EE37CC900774BEA /* Resources */,
+				31B2D7B7534C9037741E0DDB /* [CP] Embed Pods Frameworks */,
+				E827865C1747CB7A1C9A691F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				811BD8761EE37CC900774BEA /* PBXTargetDependency */,
+			);
+			name = MoodSwingsUITests;
+			productName = MoodSwingsUITests;
+			productReference = 811BD8741EE37CC900774BEA /* MoodSwingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		811BD84D1EE37CC900774BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sandeep Hasrajani";
+				TargetAttributes = {
+					811BD8541EE37CC900774BEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = FWYL5KC8D3;
+						ProvisioningStyle = Manual;
+					};
+					811BD8681EE37CC900774BEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811BD8541EE37CC900774BEA;
+					};
+					811BD8731EE37CC900774BEA = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 811BD8541EE37CC900774BEA;
+					};
+				};
+			};
+			buildConfigurationList = 811BD8501EE37CC900774BEA /* Build configuration list for PBXProject "MoodSwings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 811BD84C1EE37CC900774BEA;
+			productRefGroup = 811BD8561EE37CC900774BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				811BD8541EE37CC900774BEA /* MoodSwings */,
+				811BD8681EE37CC900774BEA /* MoodSwingsTests */,
+				811BD8731EE37CC900774BEA /* MoodSwingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		811BD8531EE37CC900774BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81F649E71EE3B231002BA6AB /* Main.storyboard in Resources */,
+				811BD8631EE37CC900774BEA /* LaunchScreen.storyboard in Resources */,
+				811BD8601EE37CC900774BEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8671EE37CC900774BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8721EE37CC900774BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		001A39CF29631791E3174A9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0892581775C19DEB0850EB22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwings/Pods-MoodSwings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A2065E8EFE0881CC30B19E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwingsTests/Pods-MoodSwingsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B2D7B7534C9037741E0DDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwingsUITests/Pods-MoodSwingsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463D0DA0A58AE941986E3184 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwingsTests/Pods-MoodSwingsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C20E40B0A5C1CEF5B1B54C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A34F6EC702ADB667E9714D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwings/Pods-MoodSwings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8E1C3A6A3227497B5D33F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E827865C1747CB7A1C9A691F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoodSwingsUITests/Pods-MoodSwingsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		811BD8511EE37CC900774BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81107D981F2416160035AA4A /* LoginViewController.swift in Sources */,
+				811BD85B1EE37CC900774BEA /* MoodsViewController.swift in Sources */,
+				811BD8591EE37CC900774BEA /* AppDelegate.swift in Sources */,
+				811BD8891EE38AFC00774BEA /* ResultsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8651EE37CC900774BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811BD86E1EE37CC900774BEA /* MoodSwingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		811BD8701EE37CC900774BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811BD8791EE37CC900774BEA /* MoodSwingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		811BD86B1EE37CC900774BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811BD8541EE37CC900774BEA /* MoodSwings */;
+			targetProxy = 811BD86A1EE37CC900774BEA /* PBXContainerItemProxy */;
+		};
+		811BD8761EE37CC900774BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 811BD8541EE37CC900774BEA /* MoodSwings */;
+			targetProxy = 811BD8751EE37CC900774BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		811BD8611EE37CC900774BEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				811BD8621EE37CC900774BEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		811BD87B1EE37CC900774BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		811BD87C1EE37CC900774BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/sandeephasrajani/Documents/FacebookSDK;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		811BD87E1EE37CC900774BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59E9AAA0896EBC775E39F10F /* Pods-MoodSwings.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FWYL5KC8D3;
+				INFOPLIST_FILE = MoodSwings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebas.MoodSwings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "747907c9-2e75-4d74-890e-38146edaeb46";
+				PROVISIONING_PROFILE_SPECIFIER = forTestingDevelopment;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		811BD87F1EE37CC900774BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 958D713AF671F673F46452F8 /* Pods-MoodSwings.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = FWYL5KC8D3;
+				INFOPLIST_FILE = MoodSwings/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebas.MoodSwings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "cc29a28c-57a9-47d7-8797-edb4dde95b03";
+				PROVISIONING_PROFILE_SPECIFIER = forTestDistributionAdHoc;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		811BD8811EE37CC900774BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F615CFB6EAE7B44A5EBF0AA9 /* Pods-MoodSwingsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodSwingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThoseEmotions.MoodSwingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodSwings.app/MoodSwings";
+			};
+			name = Debug;
+		};
+		811BD8821EE37CC900774BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADFA556AE52996A393D75275 /* Pods-MoodSwingsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoodSwingsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThoseEmotions.MoodSwingsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoodSwings.app/MoodSwings";
+			};
+			name = Release;
+		};
+		811BD8841EE37CC900774BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2F50F8A24A5A90AF79865F /* Pods-MoodSwingsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoodSwingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThoseEmotions.MoodSwingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoodSwings;
+			};
+			name = Debug;
+		};
+		811BD8851EE37CC900774BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46E413142BDA56BF9895115 /* Pods-MoodSwingsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MoodSwingsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThoseEmotions.MoodSwingsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MoodSwings;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		811BD8501EE37CC900774BEA /* Build configuration list for PBXProject "MoodSwings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811BD87B1EE37CC900774BEA /* Debug */,
+				811BD87C1EE37CC900774BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811BD87D1EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811BD87E1EE37CC900774BEA /* Debug */,
+				811BD87F1EE37CC900774BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811BD8801EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811BD8811EE37CC900774BEA /* Debug */,
+				811BD8821EE37CC900774BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		811BD8831EE37CC900774BEA /* Build configuration list for PBXNativeTarget "MoodSwingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				811BD8841EE37CC900774BEA /* Debug */,
+				811BD8851EE37CC900774BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 811BD84D1EE37CC900774BEA /* Project object */;
+}
